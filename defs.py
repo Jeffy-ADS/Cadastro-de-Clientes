@@ -1,6 +1,7 @@
 import valida 
 import datetime
 import os
+import maskpass
 
 #Funções
 
@@ -16,7 +17,7 @@ mes = data.month
 ano = data.year
 
 def menu():
-    print('------------- <<< \033[1;96msk8-Life\033[0;0m >>> -------------------')
+    print('--------------- <<< \033[1;96msLoja\033[0;0m >>> --------------------')
     print('| [\033[1;36m1\033[0;0m] Cadastrar Cliente                          |')
     print('| [\033[1;36m2\033[0;0m] Dados do Cliente                           |')
     print('| [\033[1;36m3\033[0;0m] Mostrar Clientes                           |')
@@ -79,7 +80,7 @@ def mostraDados():
     criaBarra()
     
     userlogin = input('Login: ')
-    usersenha = input('Senha: ')
+    usersenha = maskpass.askpass('Senha: ')
     valida = False  # Variavel de validação do login
     
     logins = open('logins.txt', 'r')  # Percorre cada linha do logins.txt

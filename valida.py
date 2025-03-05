@@ -1,4 +1,5 @@
 import defs 
+import maskpass
 
 def Nome():
     while True:
@@ -16,7 +17,7 @@ def Nome():
         
 def Senha():
     while True:
-        senha = input('Senha: ')
+        senha = maskpass.askpass('Senha: ', mask='*')
         if senha == '':
             print('Erro! Entrada vazia.')
             continue
