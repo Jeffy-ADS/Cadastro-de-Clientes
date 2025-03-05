@@ -1,8 +1,6 @@
-# 🛹 Sk8-Life: Sistema de Cadastro de Clientes
+# loja : Sistema de Cadastro de Clientes
 
-## 📋 Descrição do Projeto
-
-Sk8-Life é um sistema de gerenciamento de clientes desenvolvido em Python, focado em uma loja de skate. O projeto oferece funcionalidades completas de cadastro, consulta e geração de relatórios de clientes.
+loja é um sistema de gerenciamento de clientes desenvolvido em Python, focado em uma loja de skate. O projeto oferece funcionalidades completas de cadastro, consulta e geração de relatórios de clientes.
 
 ## ✨ Funcionalidades
 
