@@ -1,6 +1,6 @@
 # loja : Sistema de Cadastro de Clientes
 
-loja é um sistema de gerenciamento de clientes desenvolvido em Python, focado em uma loja de skate. O projeto oferece funcionalidades completas de cadastro, consulta e geração de relatórios de clientes.
+loja é um sistema de gerenciamento de clientes desenvolvido em Python, focado colher informações e guardar no banco de dados. O projeto oferece funcionalidades completas de cadastro, consulta e geração de relatórios de clientes.
 
 ## ✨ Funcionalidades
 
@@ -35,6 +35,7 @@ cd sk8-life
 
 3. Execute o sistema:
 ```bash
+pip install maskpass
 python3 main.py
 ```
 
@@ -54,10 +55,6 @@ sk8-life/
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-## 📜 Licença
 
-Este projeto está sob a licença MIT.
 
----
-
-### 👨‍💻 Desenvolvido por [Seu Nome]
+### 👨‍💻 Desenvolvido por [Vitimfm]
