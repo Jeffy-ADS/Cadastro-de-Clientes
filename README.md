@@ -1,6 +1,6 @@
-# loja : Sistema de Cadastro de Clientes
+# Sistema de Cadastro de Clientes
 
-loja é um sistema de gerenciamento de clientes desenvolvido em Python, focado colher informações e guardar no banco de dados. O projeto oferece funcionalidades completas de cadastro, consulta e geração de relatórios de clientes.
+É um sistema de gerenciamento de clientes desenvolvido em Python, focado colher informações e guardar no banco de dados. O projeto oferece funcionalidades completas de cadastro, consulta e geração de relatórios de clientes.
 
 ## ✨ Funcionalidades
 
@@ -42,7 +42,7 @@ python3 main.py
 ## 📂 Estrutura do Projeto
 
 ```
-sk8-life/
+loja/
 │
 ├── main.py         # Arquivo principal
 ├── defs.py         # Definições e funções principais
@@ -57,4 +57,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 
 
 
-### 👨‍💻 Desenvolvido por [Vitimfm]
+### Desenvolvido por [Vitimfm]
+### Implementado por Jeffy-ADS
